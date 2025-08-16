@@ -1,14 +1,20 @@
- table, th, td {
-      border: 1px solid black;
-      border-collapse: collapse; /* so borders don’t double */
-    }
-    .middle {
-      margin: 20px auto; /* center the table */
-    }
-    .center {
-      text-align: center;
-    }
-    .right {
-      text-align: right;
-    }
-  </style>
+table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse; /* so borders don’t double */
+            padding: 5px; /* Add some padding for better appearance */
+        }
+        .middle {
+            margin: 20px auto; /* center the table */
+        }
+        .center {
+            text-align: center;
+        }
+        .right {
+            text-align: right;
+        }
+        .green {
+            background-color: green;
+        }
+        .blue {
+            background-color: blue;
+        }
