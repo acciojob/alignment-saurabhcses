@@ -1,7 +1,14 @@
-table, th, td {
-  border: 1px solid rgb(0,0,0)
-}
-
-.middle {
-    /* Add any additional styles for the middle class if needed */
-}
+ table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse; /* so borders don’t double */
+    }
+    .middle {
+      margin: 20px auto; /* center the table */
+    }
+    .center {
+      text-align: center;
+    }
+    .right {
+      text-align: right;
+    }
+  </style>
