@@ -2,10 +2,11 @@
 table ,td {
   
 	    border: 1px solid black;
-        border-collapse: collapse;
+        border-col
+		lapse: collapse;
         padding: 1px;
 }
-t th {
+td,th {
     border: 1px solid black;
     padding: 1px;
 }
