@@ -1,8 +1,15 @@
-table, th, td {
+th {
             border: 1px solid black;
             border-collapse: collapse; /* so borders don’t double */
-            padding: 5px; /* Add some padding for better appearance */
+            padding: 1px; /* Add some padding for better appearance */
+	
         }
+table, td {
+     border: 1px solid black;
+    border-collapse: collapse; /* so borders don’t double up */
+  padding: 1px; /* matches test requirement */
+}
+
         .middle {
             margin: 20px auto; /* center the table */
         }
